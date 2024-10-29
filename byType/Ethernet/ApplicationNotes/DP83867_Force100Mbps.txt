@@ -1,0 +1,15 @@
+begin
+
+//hard reset
+001F 8000
+
+// disable 10 Mbps adverts
+0004 0181
+
+// disable 1000 Mbps adverts
+0009 0000
+
+//soft reset
+001F 4000
+
+end
